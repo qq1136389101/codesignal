@@ -53,6 +53,6 @@ public class PalindromeRearranging {
             }
         }
 
-        return set.size() > 1 ? false : true;
+        return set.size() <= 1;
     }
 }
